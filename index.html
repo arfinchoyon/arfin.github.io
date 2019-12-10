@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+ <meta charset="utf-8" />
+ <title>Food Lovers</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta name="keywords" content="Food Shop, Burger, Hamburger, Restaurent, Best Food, Online Food, Order Food" />
+ <meta name="description" content="The Best Quality Food for Online Order" />
+ <meta name="author" content="Md Choyon Mia" />
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+ <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" />
+ <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+<!--Top Navbar Starts From Here-->
+<div class="container-fluid topNav" id="topNav">
+ <div class="container">
+  <nav class="navbar navbar-expand-lg">
+   <a class="navbar-brand" href="#">
+    HUNGRY<span>GUEST</span>
+	<i class="fas fa-utensils"></i>
+   </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" 
+   data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon">
+	 <i class="fas fa-bars"></i>
+	</span>
+   </button>
+   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+     <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#about">About Us</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#dish">Explore Foods</a>
+     </li>
+	 <li class="nav-item">
+      <a class="nav-link" href="#review">Reviews</a>
+     </li>
+	 <li class="nav-item">
+      <a class="nav-link" href="#faq">FAQ</a>
+     </li>
+    </ul>
+   </div>	
+  </nav>
+ </div>
+</div>
+<!--Top Navbar Ends Here-->
+<!--Slider Starts From Here-->
+<div class="container-fluid slideContainer">
+ <div class="container mySlides fadee">
+  <div class="row">
+   <div class="col-lg-7">
+    <img src="images/halal8.jpg" alt="Dish for Breakfast" />
+   </div>
+   <div class="col-lg-5">
+    <h2>Breakfast</h2>
+	<p class="foodTitle">Healthy Breakfast in 5 Minutes</p>
+	<hr />
+	<h3>Grilled Steak Tortilla Salad</h3>
+	<p class="foodDescription">Sure, tacos are filling and delicious but they aren't always healthy. A taco salad, however, is a safer bet.</p>
+	<div class="row orderButtons">
+	 <div class="col-sm-6">
+	  <a href="javascript:void(0)" onclick="openModel()">Order Now 
+	  <i class="fas fa-running"></i></a>
+	 </div>
+	 <div class="col-sm-6">
+	  <a href="#dish" class="rightt">See More <i class="fas fa-angle-right"></i></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ <div class="container mySlides fadee">
+  <div class="row">
+   <div class="col-lg-7">
+    <img src="images/halal2.jpg" alt="Dish for Lunch" />
+   </div>
+   <div class="col-lg-5">
+    <h2>Lunch</h2>
+	<p class="foodTitle">Good Food Ends With Good Talk</p>
+	<hr />
+	<h3>Baked Kale Gratin</h3>
+	<p class="foodDescription">This is basically just fancy spinach-artichoke dip and it definitely belongs on your table.</p>
+	<div class="row orderButtons">
+	 <div class="col-sm-6">
+	  <a href="javascript:void(0)" onclick="openModel()">Order Now 
+	  <i class="fas fa-running"></i></a>
+	 </div>
+	 <div class="col-sm-6">
+	  <a href="#dish" class="rightt">See More <i class="fas fa-angle-right"></i></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ <div class="container mySlides fadee">
+  <div class="row">
+   <div class="col-lg-7">
+    <img src="images/halal12.jpg" alt="Dish for Dinner" />
+   </div>
+   <div class="col-lg-5">
+    <h2>Dinner</h2>
+	<p class="foodTitle">Good Food, Good Mood</p>
+	<hr />
+	<h3>Easy-Peasy Shrimp Ziti</h3>
+	<p class="foodDescription">Let's be real: If "easy" is in the name, you have to give it a go.</p>
+	<div class="row orderButtons">
+	 <div class="col-sm-6">
+	  <a href="javascript:void(0)" onclick="openModel()">Order Now 
+	  <i class="fas fa-running"></i></a>
+	 </div>
+	 <div class="col-sm-6">
+	  <a href="#dish" class="rightt">See More <i class="fas fa-angle-right"></i></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ <div class="container mySlides fadee">
+  <div class="row">
+   <div class="col-lg-7">
+    <img src="images/halal16.jpg" alt="50% Off for Special Coupon" />
+	<span class="pTag">50% Flat OFF</span>
+   </div>
+   <div class="col-lg-5">
+    <h2>Special Coupon</h2>
+	<p class="foodTitle">For Your First Order <strong>50%</strong> Flat OFF</p>
+	<hr />
+	<h3>Get Your First Meal at <strong style="color:#e34a6c;">$5.50</strong></h3>
+	<p class="foodDescription">We care about our customer. Be our First Hungry Guest. And get <strong>50%</strong> Flat OFF on your First Order.</p>
+	<div class="row orderButtons">
+	 <div class="col-sm-6">
+	  <a href="javascript:void(0)" onclick="openModel()">Order Now 
+	  <i class="fas fa-running"></i></a>
+	 </div>
+	 <div class="col-sm-6">
+	  <a href="#dish" class="rightt">See More <i class="fas fa-angle-right"></i></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ <a href="javascript:void(0)" class="prev" onclick="plusSlides(-1)">
+  <i class="fas fa-angle-left"></i>
+ </a>
+ <a href="javascript:void(0)" class="next" onclick="plusSlides(1)">
+  <i class="fas fa-angle-right"></i>
+ </a>
+</div>
+<!--Slider Ends Here-->
+<!--Parallax Starts From Here-->
+<div class="container-fluid para">
+ <div class="secondOverlay"></div>
+ <div class="container">
+  <div class="row">
+   <div class="col-md-3 col-sm-6">
+    <div class="paraInner">
+	 <i class="fas fa-calendar-alt"></i>
+	 <div class="counter-value" id="count1"></div>
+	 <p>Years in Business</p>
+	</div>
+   </div>
+   <div class="col-md-3 col-sm-6">
+    <div class="paraInner">
+	 <i class="fas fa-hamburger"></i>
+	 <div class="counter-value" id="count2"></div>
+	 <p>Popular Dishes</p>
+	</div>
+   </div>
+   <div class="col-md-3 col-sm-6">
+    <div class="paraInner">
+	 <i class="fas fa-user-tie"></i>
+	 <div class="counter-value" id="count3"></div>
+	 <p>Happy Customers</p>
+	</div>
+   </div>
+   <div class="col-md-3 col-sm-6">
+    <div class="paraInner">
+	 <i class="fas fa-user-graduate"></i>
+	 <div class="counter-value" id="count4"></div>
+	 <p>Qualified Staff</p>
+	</div>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Parallax Ends Here-->
+<!--About US section Starts From Here-->
+<div class="container-fluid about" id="about">
+ <div class="container">
+  <h2 class="aboutTitle">About Us</h2>
+  <p class="aboutBorder"><i class="fas fa-utensils"></i></p>
+  <hr />
+  <div class="row">
+   <div class="col-md-6 aboutFirstInner">
+    <h2>Good service is good business.</h2>
+    <p>Quality in a service or product is not what you put into it. It is what the client or customer gets out of it.</p>
+    <p>Eating is so intimate. It's very sensual. When you invite someone to sit at your table and you want to cook for them, you're inviting a person into your life.</p>
+	<a href="#dish" id="aboutLink">Learn More <i class="fas fa-angle-right"></i></a>
+   </div>
+   <div class="col-md-6 aboutSecondInner">
+    <div class="overLayContainer">
+     <img src="images/halal7.jpg" alt="Our Story" id="aboutImg1" />
+     <div class="firstOverLay"> 
+	  <a href="https://www.youtube.com/watch?v=F7ttFw4oBMw" target="_blank">
+	   <i class="fas fa-play"></i> Watch Our Story
+	  </a>
+	 </div>
+	 </div>
+   </div>
+  </div>
+  <div class="row time">
+   <div class="col-md-6 col-lg-3">
+    <div class="timeFirst">
+	 <i class="fas fa-utensils"></i>
+	 <h5>BREAKFAST</h5>
+	 <hr />
+	 <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>	 
+	</div>
+	<a href="#dish" class="timeId">See More <i class="fas fa-angle-right"></i></a>
+   </div>
+   <div class="col-md-6 col-lg-3">
+    <div class="timeFirst">
+	 <i class="fas fa-utensils"></i>
+	 <h5>LUNCH</h5>
+	  <hr />
+	  <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+	</div>
+	<a href="#dish" class="timeId">See More <i class="fas fa-angle-right"></i></a>
+   </div>
+   <div class="col-md-6 col-lg-3">
+    <div class="timeFirst">
+	 <i class="fas fa-utensils"></i>
+	 <h5>DINNER</h5>
+	  <hr />
+	  <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+	</div>
+	<a href="#dish" class="timeId">See More <i class="fas fa-angle-right"></i></a>
+   </div>
+   <div class="col-md-6 col-lg-3">
+    <div class="timeFirst">
+	 <i class="fas fa-utensils"></i>
+	 <h5>SPECIAL OFFERS</h5>
+	  <hr />
+	  <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+	</div>
+	<a href="#dish" class="timeId">See More <i class="fas fa-angle-right"></i></a>
+   </div>
+  </div>
+ </div>
+</div>
+<!--About US section Ends Here-->
+<!--Second Parallax Starts From Here-->
+<div class="container-fluid secParallax">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Get 50% <span>Off</span> on Your First Orders</h2>
+   </div>
+   <div class="col-md-4">
+    <a href="#dish">Learn More <i class="fas fa-angle-right"></i></a>
+   </div>   
+  </div>
+ </div>
+</div>
+<!--Second Parallax Ends Here-->
+<!--Our Popular Dishes Starts From Here-->
+<div class="container-fluid dish" id="dish">
+ <div class="container">
+  <h2 class="dishTitle">Our Popular Dishes</h2>
+  <p class="dishBorder"><i class="fas fa-utensils"></i></p>
+  <hr />
+  <div class="row dishFirst">
+   <div class="col-md-6 col-lg-3">
+    <div class="dishFirstInner">
+	 <img src="images/halal16.jpg" alt="Popular Dish One" />
+	 <h6>Grilled Tortilla</h6>
+	 <h5>$9.00 <span>$12.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+   </div>
+   <div class="col-md-6 col-lg-3">
+    <div class="dishFirstInner">
+	 <img src="images/halal11.jpg" alt="Popular Dish Two" />
+	 <h6>Baked Kale Gratin</h6>
+	 <h5>$5.00 <span>$9.50</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+   </div>
+   <div class="col-md-6 col-lg-3">
+    <div class="dishFirstInner">
+	 <img src="images/halal13.jpg" alt="Popular Dish Three" />
+	 <h6>Easy Shrimp Ziti</h6>
+	 <h5>$6.00 <span>$10.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+   </div>
+   <div class="col-md-6 col-lg-3">
+    <div class="dishFirstInner">
+	 <img src="images/halal12.jpg" alt="Popular Dish Four" />
+	 <h6>Charleston red rice</h6>
+	 <h5>$12.00 <span>$15.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+   </div>
+  </div> 
+  
+  <div class="row dishSecond">
+   <div class="col-md-6 col-lg-3 slideContainerTwo">
+    <div class="dishSecondInner mySlidesTwo fadeTwo">
+     <img src="images/dishsix.webp" alt="Dish for Breakfast One" />
+	 <h6>Fruit Bowl</h6>
+	 <h5>$12.00 <span>$15.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesTwo fadeTwo">
+     <img src="images/n.jpg" alt="Dish for Breakfast Two" />
+	 <h6>Bear Claw</h6>
+	 <h5>$7.00 <span>$8.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesTwo fadeTwo">
+     <img src="images/n2.jpg" alt="Dish for Breakfast Three" />
+	 <h6>Biscuits and Gravy</h6>
+	 <h5>$16.33 <span>$20.48</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesTwo fadeTwo">
+     <img src="images/n3.jpg" alt="Dish for Breakfast Four" />
+	 <h6>Bread Pudding.</h6>
+	 <h5>$5.00 <span>$8.00</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<a href="javascript:void(0)" class="prevTwo" onclick="plusSlides2(-1)">
+     <i class="fas fa-angle-left"></i>
+    </a>
+    <a href="javascript:void(0)" class="nextTwo" onclick="plusSlides2(1)">
+     <i class="fas fa-angle-right"></i>
+    </a>
+	<p>Breakfast</p>
+   </div>
+   <div class="col-md-6 col-lg-3 slideContainerThree">
+    <div class="dishSecondInner mySlidesThree fadeThree">
+     <img src="images/n.jpg" alt="Dish for Lunch One" />
+	 <h6>Maple Syrup</h6>
+	 <h5>$11.00 <span>$12.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesThree fadeThree">
+     <img src="images/l.jpg" alt="Dish for Lunch Two" />
+	 <h6>Key Lime Pie</h6> 
+	 <h5>$3.80 <span>$5.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesThree fadeThree">
+     <img src="images/l1.jpg" alt="Dish for Lunch Three" />
+	 <h6>Cobb Salad</h6>
+	 <h5>$13.00 <span></span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesThree fadeThree">
+     <img src="images/l2.jpg" alt="Dish for Lunch Four" />
+	 <h6>Tater Tots</h6>
+	 <h5>$7.00 <span>$8.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<a href="javascript:void(0)" class="prevThree" onclick="plusSlides3(-1)">
+     <i class="fas fa-angle-left"></i>
+    </a>
+    <a href="javascript:void(0)" class="nextThree" onclick="plusSlides3(1)">
+     <i class="fas fa-angle-right"></i>
+    </a>
+	<p>Lunch</p>
+   </div>
+   <div class="col-md-6 col-lg-3 slideContainerFour">
+    <div class="dishSecondInner mySlidesFour fadeFour">
+     <img src="images/d.jpg" alt="Dish for Dinner One" />
+	 <h6>Wheat Bread</h6>
+	 <h5>$9.00 <span></span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesFour fadeFour">
+     <img src="images/d2.jpg" alt="Dish for Dinner Two" />
+	 <h6>Banana Split</h6>
+	 <h5>$7.00 <span>$9.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesFour fadeFour">
+     <img src="images/d3.jpg" alt="Dish for Dinner Three" />
+	 <h6>Biscuits and Gravy</h6>
+	 <h5>$5.00 <span>$11.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesFour fadeFour">
+     <img src="images/d1.jpg" alt="Dish for Dinner Four" />
+	 <h6>Smithfield Ham</h6>
+	 <h5>$7.00 <span>$14.66</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<a href="javascript:void(0)" class="prevFour" onclick="plusSlides4(-1)">
+     <i class="fas fa-angle-left"></i>
+    </a>
+    <a href="javascript:void(0)" class="nextFour" onclick="plusSlides4(1)">
+     <i class="fas fa-angle-right"></i>
+    </a>
+	<p>Dinner</p>
+   </div>
+   <div class="col-md-6 col-lg-3 slideContainerFive">
+    <div class="dishSecondInner mySlidesFive fadeFive">
+     <img src="images/c.jpg" alt="Dish for Coupon One" />
+	 <h6>Egg Toast</h6>
+	 <h5>$4.00 <span>$5.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesFive fadeFive">
+     <img src="images/c1.jpg" alt="Dish for Coupon Two" />
+	 <h6>Egg Toast</h6>
+	 <h5>$7.00 <span>$8.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesFive fadeFive">
+     <img src="images/c2.jpg" alt="Dish for Coupon Three" />
+	 <h6>Egg Toast</h6>
+	 <h5>$10.00 <span>$12.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">Order Now 
+	 <i class="fas fa-running"></i></a>
+    </div>
+	<div class="dishSecondInner mySlidesFive fadeFive">
+     <img src="images/c3.jpg" alt="Dish for Coupon Four" />
+	 <h6>Egg Toast</h6>
+	 <h5>$6.00 <span>$8.33</span></h5>
+	 <hr />
+	 <a href="javascript:void(0)" class="dishOrder2" onclick="openModel()">
+	  Order Now <i class="fas fa-running"></i></a>
+    </div>
+	<a href="javascript:void(0)" class="prevFive" onclick="plusSlides5(-1)">
+     <i class="fas fa-angle-left"></i>
+    </a>
+    <a href="javascript:void(0)" class="nextFive" onclick="plusSlides5(1)">
+     <i class="fas fa-angle-right"></i>
+    </a>
+	<p>Coupon</p>
+   </div>
+  </div>
+ </div>
+</div>
+<!--Our Popular Dishes Ends Here-->
+<!--Subscribe News Letter Starts From Here-->
+<div class="container-fluid newsLetter">
+ <div class="container">
+  <p><i class="far fa-envelope"></i></p>
+  <h1>News<span>Letter</span></h1>
+  <h3>Stay Up to Date With Our <span>Latest</span> News</h3>
+  <form action="#" method="post">
+   <div class="forms">
+    <input type="email" name="email" required="required"
+	placeholder="Enter Your Email Address" />
+    <input type="submit" value="Subscribe" />
+   </div>
+  </form>
+ </div>
+</div>
+<!--Subscribe News Letter Ends Here-->
+<!--Review Section Starts From Here-->
+<div class="container-fluid reviewContainer" id="review">
+ <div class="container">
+  <h2 class="reviewTitle">What Clients Says About Us</h2>
+  <p class="reviewBorder"><i class="fas fa-utensils"></i></p>
+  <hr />
+  <div class="slideshow-container5">
+   <div class="mySlides5">
+    <q>I can't blame the constraints of veganism for Hogtown making a bland Bloody Caesar ($8). This has little to do with lack of clams</q>
+    <p><img src="images/man.jpg" alt="Customer" /></p>
+	<p class="rev">
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	</p>
+    <p class="author">John Keats</p>
+   </div>
+   <div class="mySlides5">
+    <q>If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.</q>
+    <p><img src="images/man2.jpg" alt="Customer" /></p>  
+	<p class="rev">
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	</p>
+    <p class="author">Ernest Hemingway</p>
+   </div>
+   <div class="mySlides5">
+    <q>The cornmeal-fried squid was the sort of salty that friolates tonsils and leaves your lips with chemical burns. It was the sort of salty that you can't even pretend to try to eat.</q>
+    <p><img src="images/man3.jpg" alt="Customer" /></p>
+	<p class="rev">
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	 <i class="fas fa-star"></i>
+	</p>
+    <p class="author">Thomas A. Edison</p>	
+   </div>
+    <a class="prevv" onclick="plusFlides(-1)"><i class='fas fa-angle-left'></i></a>
+    <a class="nextt" onclick="plusFlides(1)"><i class='fas fa-angle-right'></i></a>
+   </div>
+   <div class="dot-container5">
+    <span class="dott" onclick="currentFlide(1)"></span> 
+    <span class="dott" onclick="currentFlide(2)"></span> 
+    <span class="dott" onclick="currentFlide(3)"></span> 
+   </div>
+ </div>
+</div>
+<!--Review Section Ends Here-->
+<!--FAQ Section Starts From Here-->
+<div class="container-fluid faq" id="faq">
+ <div class="container">
+  <h2 class="faqTitle">Frequently Asked Questions</h2>
+  <p class="faqBorder"><i class="fas fa-utensils"></i></p>
+  <hr />
+  <button class="accordion">Lorem Ipsum Dolor Sit Amet?</button>
+  <div class="panel">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="accordion">Lorem Ipsum Dolor Sit Amet?</button>
+  <div class="panel">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="accordion">Lorem Ipsum Dolor Sit Amet?</button>
+  <div class="panel">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="accordion">Lorem Ipsum Dolor Sit Amet?</button>
+  <div class="panel">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="accordion">Lorem Ipsum Dolor Sit Amet?</button>
+  <div class="panel">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+ </div>
+</div>
+<!--FAQ Section Ends Here-->
+<!--Footer Section Starts From Here-->
+<div class="container-fluid foot">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-8">
+    <h6><i class="fas fa-copyright"></i> 2019 <a href="">HUNGRY<span>GUEST</span></a> All Rights Reserved.</h6>
+   </div>
+   <div class="col-md-4">
+    <nav class="navbar navbar-expand">
+     <ul class="navbar-nav">
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+	    <i class="fab fa-facebook-square"></i>
+	   </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+	    <i class="fab fa-twitter-square"></i>
+	   </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+	    <i class="fab fa-instagram"></i>
+	   </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+	    <i class="fab fa-linkedin"></i>
+	   </a>
+      </li>
+	  <li class="nav-item">
+       <a class="nav-link" href="#">
+	    <i class="fab fa-youtube-square"></i>
+	   </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </div>
+ </div>
+ <a href="tel:+123456789" id="fix"><i class="fas fa-phone-volume"></i> +12 3456 789</a>
+</div>
+<!--Footer Section Ends Here-->
+<!--Order Form Starts From Here-->
+<div class="orderFormContainer" id="formss">
+ <div class="container orderForm animate">
+  <span class="closse" title="Close Modal" 
+  onclick="document.getElementById('formss').style.display='none'">
+  &times;</span>
+  <h3>Make Your Order Now!</h3>
+  <form action="#" method="post">
+   <input type="text" name="fullName" placeholder="Your Name" />
+   <input type="email" name="fullEmail" placeholder="Your Email" />
+   <input type="text" name="fullAddress" placeholder="Your Address" />
+   <input type="number" name="zipCode" placeholder="Zip Code" />
+   <input type="number" name="phone" placeholder="Phone Number" />
+   <input type="number" name="dish" placeholder="For One Person" />
+   <select name="dishes">
+    <option value="Grilled Tortilla">Grilled Tortilla</option>
+    <option value="Baked Kale Gratin">Baked Kale Gratin</option>
+    <option value="Easy Shrimp Ziti">Easy Shrimp Ziti</option>
+    <option value="Charleston red rice">Charleston red rice</option>
+  </select><br />
+  <a href="#" id="orderButton">Order Now <i class="fas fa-running"></i></a>
+  </form>
+ </div>
+</div>
+<!--Order Form Ends Here-->
+<script src="js/index.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
